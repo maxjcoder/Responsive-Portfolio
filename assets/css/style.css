@@ -1,0 +1,294 @@
+html {
+    background-color: white;
+}
+
+body {  
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+  /* Need the header line to be white */
+
+.mainheader {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: white;
+    clear: both;
+    height: 48px;
+    margin-right: 40px;
+    margin-top: 8px;
+}
+
+  /* Need background of the content to match each page */
+
+.background {
+    background-image: url(../images/light-veneer.png)
+}
+
+.mainportfolio {
+    background-image: url(../images/light-veneer.png)
+}
+
+  /* Header (name and nav items) */
+
+.name {
+    float: left;
+    margin-left: 35px;
+    width: 202px;
+    padding: 12px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    background-color: #4aaaa5;
+    color: white;
+}
+
+.about {
+    float: right;
+    width: 62px;
+    padding-top: 7px;
+    text-align: center;
+    border-right: 1px solid grey;
+}
+
+.portfolio {
+    float: right;
+    width: 87px;
+    padding-top: 7px;
+    text-align: center;
+    border-right: 1px solid grey;
+    
+}
+
+.contact {
+    float: right;
+    width: 70px;
+    padding-top: 7px;
+    text-align: center;
+    
+}
+  /* Beg. Portfilio Content Area */
+
+
+       /* About me - Two Containers for: heading image and text */
+
+.indexcontent {
+    background-color: white;
+    margin-bottom: 0%;
+    border: 1px solid;
+    border-bottom-color: white;
+    border-left-color: white;
+    border-right-color: white;
+    border-top-color: #cccccc;
+    background-image: url(../images/light-veneer.png);
+}
+
+.paragraph {
+    margin: 35px;
+    border: 1px solid;
+    border-color: white;
+    background-color: white;
+}
+
+#heading {
+    margin-left: 20px;
+    width: 178px;
+    padding: 12px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4aaaa5;
+}
+
+#hr {
+    display: block;
+    unicode-bidi: isolate;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: 5px;
+    margin-inline-end: 5px;
+    overflow: hidden;
+    border-style: inset;
+    border-width: 5px;
+}
+
+#picture {
+    margin: 15px;
+    padding-top: 0px;
+    padding-right: 6.66px;
+    padding-left: 6.66px;
+    float: left;
+}
+
+#text {
+    margin-right: 24px;
+    margin-left: 24px;
+    margin-bottom: 5px;
+    margin-top: 12px;
+    padding-bottom: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 25px;
+    font-size: 18px;
+    color: #777777;
+}
+
+  /* Beg. Portfilio Content Area */
+
+         /* Portfolio - Two Containers for: five portfolio items */
+
+.portfoliocontent {
+    background-color: white;
+    border: 1px solid;
+    border-bottom-color: white;
+    border-left-color: white;
+    border-right-color: white;
+    border-top-color: #cccccc;
+}
+
+         /* Set the portfilio items on a grid system */
+
+  .grid {
+    display: grid;
+    grid-template-columns: 25% 25%;
+    grid-row-gap: 6ch;
+    grid-column-gap: 4ch;
+    margin-top: 35px;
+    margin-right: 35px;
+    margin-left: 35px;
+    padding-bottom: 48px;
+    background-color: white;
+    line-height: 25px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: normal;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#l1 {
+    width: 202px;
+    float: left;
+    color: white;
+    background-color: #4aaaa5;
+    text-align: center;
+    height: 28px;
+    margin-top: 170px;
+    position: absolute;
+}
+
+#l2 {
+    width: 202px;
+    float: left;
+    color: white;
+    background-color: #4aaaa5;
+    text-align: center;
+    height: 28px;
+    margin-top: 170px;
+    margin-left: 238px;
+    position: absolute;
+}
+
+#l3 {
+    width: 202px;
+    float: left;
+    color: white;
+    background-color: #4aaaa5;
+    text-align: center;
+    height: 28px;
+    height: 28px;
+    margin-top: 424px;
+    position: absolute;
+}
+
+#l4 {
+    width: 202px;
+    float: left;
+    color: white;
+    background-color: #4aaaa5;
+    text-align: center;
+    height: 28px;
+    margin-top: 424px;
+    margin-left: 238px;
+    position: absolute;
+}
+
+#l5 {
+    width: 202px;
+    float: left;
+    color: white;
+    background-color: #4aaaa5;
+    text-align: center;
+    height: 28px;
+    margin-top: 678px;
+    position: absolute;
+}
+
+  /* Contact Form */
+
+.contact-form {
+    border: 1px solid;
+}
+
+form {
+    width: 400px;
+    padding: 1em;
+  }
+  
+  form div + div {
+    margin-top: 1em;
+  }
+  
+  label {
+    display: inline-block;
+    width: 55px;
+    text-align: none;
+    font-family: sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 25px;
+    font-size: 18px;
+    color: #777777;
+  }
+  
+  input, textarea {
+    font: 1em sans-serif;
+    width: 844px;
+    box-sizing: border-box;
+    border: 1px solid #cccccc;
+  }
+  
+  input:focus, textarea:focus {
+    border-color: #000;
+  }
+  
+  textarea {
+    vertical-align: top;
+    height: 5em;
+  }
+
+  .button {
+    background-color: #4aaaa5;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  
+  /* Footer styling */
+
+.footer {
+    border-top: 10px solid;
+    border-top-color: #4aaaa5;
+    padding-top: 22px;
+    padding-bottom: 3px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    line-height: 16px;
+    background-color: #666666;
+    color: white;
+}
